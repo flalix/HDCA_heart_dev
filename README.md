@@ -1,2 +1,60 @@
-# HDCA_heart_dev
-Spatial Transcriptomics data of the embryonic heart developmental atlas (HDCA) - forcked
+# Spatiotemporal gene expression and cellular dynamics of the developing human heart (forcked)
+
+This repository contains the scripts used for the analysis of the single-cell RNA seq and the Spatial Transcriptomics data of the embryonic heart developmental atlas (HDCA). 
+Since several environments have been used along the project, below you will find a workflow chart presenting the pipeline used with the corresponding scripts. 
+
+<br>
+
+<div align="right">
+  <a href="https://hdca-sweden.scilifelab.se/" target="_blank">
+  <img src="https://github.com/rmauron/HDCA_heart_dev/assets/92672952/5baae706-3452-49ad-a616-5cf34d768ad5" alt="HDCA" width="250">
+  </a>
+</div>
+
+
+## Source and Data
+
+- Github: https://github.com/rmauron/HDCA_heart_dev
+  - Code: https://github.com/rmauron/HDCA_heart_dev/tree/main/code
+  - Environment: https://github.com/rmauron/HDCA_heart_dev/tree/main/environments
+    - different yml
+      - liana (biocondutorSS)
+      - scFates
+      - scVelo
+      - stereoscope
+
+- Zenodo: https://zenodo.org/records/15912657
+
+
+
+## Workflow chart
+On the diagram, find the workflow used for the analysis with each major step presented as the title of the box, the path were the corresponding script are located and the color representing the corresponding environment.
+
+- All the scripts are found in the [code folder](./code).
+- All the environments are found in the [environments folder](./environments).
+
+![HDCA_heart_pipeline](https://github.com/rmauron/HDCA_heart_dev/assets/92672952/5d2beacf-8f18-4474-bfc0-199f5d0c0041)
+
+
+## Data
+- The preprocessed data, some intermediate .Rds objects and metadata required to reproduce the analysis are found on Mendeley Data at these DOI: [Mendeley repo 1](https://data.mendeley.com/datasets/fhtb99mdzd/1) and [Mendeley repo 2](https://data.mendeley.com/datasets/w65jtfsvpr/1).
+- The raw sequencing data are availbale at the European Genome-Phenome Archive (EGA) upon request at [EGAS50000001122](https://ega-archive.org/studies/EGAS50000001122) and [EGAS50000001029](https://ega-archive.org/studies/EGAS50000001029).
+
+## Resources
+The analyses presented in this repository were predominantly conducted on a MacBook Pro M2 Max chip (2023), 32 GB of memory, running Ventura 13.0; however, some computations were also executed on a private server for enhanced performance and scalability.
+
+Although an extensive effort was attributed to reproducibility, some system dependencies might slightly affect the results. Support on it is out of the scope of that study.
+Find how to set up the docker container or the different environments in the [environments folder](./environments).
+
+## Useful links
+- [Nature Genetics](missing-link)
+- [Interactive viewer](https://hdcaheart.serve.scilifelab.se/web/index.html)
+- [biorXive](https://www.biorxiv.org/content/10.1101/2024.03.12.584577v3) (preprint)
+- [Zenodo](https://zenodo.org/records/15912657)
+- [Mendeley repo 1](https://data.mendeley.com/datasets/fhtb99mdzd/1) (Cellranger, Spaceranger, metadata)
+- [Mendeley repo 2](https://data.mendeley.com/datasets/w65jtfsvpr/1) (R-objects)
+- [EGA Visium](https://ega-archive.org/studies/EGAS50000001122) (raw sequencing data, available upon formal request)
+- [EGA Single-cell](https://ega-archive.org/studies/EGAS50000001029) (raw sequencing data, available upon formal request)
+
+## Citation
+Lázár E., Mauron R., Andrusivová Ž., Foyer J., He M., Larsson L., Shakari N., Salas S. M., Avenel C., Sariyar S., Hansen J. N., Vicari M., Czarnewski P., Braun E., Li X., Bergmann O., Sylvén C., Lundberg E., Linnarsson S., Nilsson M., Sundström E., Adameyko I., Lundeberg J.. Spatiotemporal gene expression and cellular dynamics of the developing human heart. Nature Genetics (2025). [https://doi.org/10.1038/s41588-025-02352-6](https://www.nature.com/articles/s41588-025-02352-6)
