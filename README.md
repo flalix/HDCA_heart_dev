@@ -99,8 +99,6 @@ Furthermore, we detected
 2. Best practices for single-cell analysis across modalities - 2023.pdf
 3. Benchmarking atlas-level data integration in single-cell genomics - 2021.pdf
 4. Current best practices in single‐cell RNA‐seq analysis: a tutorial - 2019.pdf
-
-
 5. cardiogenesis in chicken - Spatiotemporal single-cell RNA sequencing of developing chicken hearts identifies interplay between cellular differentiation and morphogenesis
 M Mantri, GJ Scuderi, R Abedini-Nassab, MFZ Wang… - Nature communications, 2021
 6. the first published spatiotemporal atlas of human heart development - A spatiotemporal organ-wide gene expression and cell atlas of the developing human heart
