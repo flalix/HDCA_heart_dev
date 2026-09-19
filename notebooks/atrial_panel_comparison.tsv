@@ -1,6 +1,0 @@
-panel	n	auroc	LA	RA	V_C	V_T	FI	VM	margin
-user (NR2F2,KCNA5,MYL4,MYL7,SLN)	5	0.9915	1.6	1.59	0.97	0.98	0.97	0.54	0.61
-user minus SLN	4	0.9935	1.88	1.85	1.06	1.04	1.05	0.31	0.78
-top-AUROC 5	5	0.9997	2.67	2.6	0.45	0.62	0.53	0.07	1.97
-recommended 6	6	0.9997	1.52	1.45	-0.16	-0.12	0.02	-0.16	1.44
-recommended + MYL4/MYL7	8	0.9997	2.04	1.97	0.61	0.63	0.69	0.22	1.28
