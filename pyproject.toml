@@ -71,6 +71,8 @@ analysis = [
   "tifffile>=2023.1",                 # floor covers the 2022.4.22 rescale bug
   "xarray>=2024.10",
   "zarr>=3",
+  "scFates",
+  "scvelo",
 ]
 
 # Interactive viewers. Pulls the napari/Qt GUI stack — keep out of the core
@@ -112,6 +114,7 @@ docs = [
 dev = [
   { include-group = "test" },
   { include-group = "viz" },
+  "nbconvert[webpdf]>=7.17.1",
   "pre-commit>=3.7",
   "ruff>=0.6",
 ]

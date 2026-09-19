@@ -46,6 +46,8 @@ V10A13-157_A1/
 *.h5
 *.h5add
 
+HDCA_heart_dev*
+
 code/
 environments/
 backup/
